@@ -4,7 +4,7 @@ export interface ListProducts {
     price:number,
     sale:number,
     image:string,
-    descriptionSort:string,
+    descriptionShort:string,
     descriptionLong:string,
     outstanding:string,
     category:{
