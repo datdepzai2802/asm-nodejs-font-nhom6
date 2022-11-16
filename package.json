@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite --port 3000",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "server": "json-server-auth --watch db.json --port 8080"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
@@ -17,8 +16,10 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.182",
     "axios": "^0.27.2",
     "json-server-auth": "^2.1.0",
+    "lodash": "^4.17.21",
     "navigo": "^8.11.1"
   }
 }
